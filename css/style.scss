@@ -19,3 +19,11 @@ $icons: (
     }  
 }
 }
+
+@for $x from 2 to 6 {
+    .block-size-x#{$x} {
+        width: 30px * $x;
+        height: 20px * $x;
+        font-size: 12px * $x;
+    }
+}
