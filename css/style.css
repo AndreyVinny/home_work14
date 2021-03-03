@@ -1,3 +1,52 @@
+@charset "UTF-8";
+.icon--packman1::after {
+  content: "✐";
+  font-family: 'IcoMoon';
+  font-size: 20px; }
 
+.icon--packman2::after {
+  content: "✑";
+  font-family: 'IcoMoon';
+  font-size: 20px; }
+
+.icon--packman3::after {
+  content: "✒";
+  font-family: 'IcoMoon';
+  font-size: 20px; }
+
+.icon--packman4::after {
+  content: "⚜";
+  font-family: 'IcoMoon';
+  font-size: 20px; }
+
+.icon--packman5::after {
+  content: "✫";
+  font-family: 'IcoMoon';
+  font-size: 20px; }
+
+.icon--packman6::after {
+  content: "❄";
+  font-family: 'IcoMoon';
+  font-size: 20px; }
+
+.block-size-x2 {
+  width: 60px;
+  height: 40px;
+  font-size: 24px; }
+
+.block-size-x3 {
+  width: 90px;
+  height: 60px;
+  font-size: 36px; }
+
+.block-size-x4 {
+  width: 120px;
+  height: 80px;
+  font-size: 48px; }
+
+.block-size-x5 {
+  width: 150px;
+  height: 100px;
+  font-size: 60px; }
 
 /*# sourceMappingURL=style.css.map */

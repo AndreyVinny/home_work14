@@ -1,0 +1,29 @@
+$icons: (
+    packman: "\270E",
+    packman1: "\2710", 
+    packman2: "\2711", 
+    packman3: "\2712", 
+    packman4: "\269C", 
+    packman5: "\272B", 
+    packman6: "\2744",
+);
+
+@each $key, $value in $icons {
+    @if $key != packman {
+    .icon--#{$key} {
+        &::after {
+            content: "#{$value}";
+            font-family: 'IcoMoon';
+            font-size: 20px; 
+        }
+    }  
+}
+}
+
+@for $x from 2 to 6 {
+    .block-size-x#{$x} {
+        width: 30px * $x;
+        height: 20px * $x;
+        font-size: 12px * $x;
+    }
+}
