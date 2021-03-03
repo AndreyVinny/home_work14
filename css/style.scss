@@ -7,3 +7,13 @@ $icons: (
     packman5: "\272B", 
     packman6: "\2744",
 );
+
+@each $key, $value in $icons {
+    .icon--#{$key} {
+        &::after {
+            content: "#{$value}";
+            font-family: 'IcoMoon';
+            font-size: 20px; 
+        }
+}
+}
