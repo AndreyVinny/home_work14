@@ -1,9 +1,4 @@
 @charset "UTF-8";
-.icon--packman::after {
-  content: "✎";
-  font-family: 'IcoMoon';
-  font-size: 20px; }
-
 .icon--packman1::after {
   content: "✐";
   font-family: 'IcoMoon';

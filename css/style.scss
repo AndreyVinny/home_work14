@@ -9,11 +9,13 @@ $icons: (
 );
 
 @each $key, $value in $icons {
+    @if $key != packman {
     .icon--#{$key} {
         &::after {
             content: "#{$value}";
             font-family: 'IcoMoon';
             font-size: 20px; 
         }
+    }  
 }
 }
